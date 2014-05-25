@@ -1,0 +1,657 @@
+body {
+	background-color: pink;
+}
+
+p, h1, h2, ul, li, a {
+	font-family: "Lato", san-serif;
+}
+
+div#first {
+	background-color: green;
+}
+
+div#second {
+	background-color: blue;
+}
+
+div#third {
+	background-color: red;
+}
+
+div#scenery {
+	background-image: url('/images/scenery.png');
+	height: 266px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+}
+
+
+/* SMALL */
+@media only screen and (max-width: 40em) { 
+  
+	body {
+		background-color: orange;
+	}
+
+	header {
+		background-color: #333333;
+		background: black url('../images/border.png') repeat-x;
+	}
+
+	nav.top-bar {
+		height: 143px;
+		margin: auto;
+		background-color: transparent;
+	}
+
+	nav.top-bar ul.title-area li.name a {
+		background-color: yellow;
+		display: block;
+		height: 143px;
+		width: 286px;
+	}
+
+	nav.top-bar ul.title-area li.name a h1 {
+		background-color: pink;
+		position: absolute;
+		margin-left: 120px;
+		margin-top: 30px;
+		line-height: 25px;
+	}
+
+	nav.top-bar ul.title-area li.name a h1 span#flappy {
+		background-color: transparent;
+		font-size: 24px;
+		color: #00CCCC;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+	}
+
+	nav.top-bar ul.title-area li.name a h1 span#app {
+		background-color: transparent;
+		font-size: 24px;
+		color: #FFFFFF;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+	}
+
+	nav.top-bar ul.title-area li.name a img {
+		position: absolute;
+		margin-left: 40px;
+		margin-top: 30px;
+		width: 77px;
+	}
+
+	nav.top-bar .top-bar-section ul.right {
+		height: 50px !important;
+		margin-top: 40px;
+		background-color: transparent;
+	}
+
+	nav.top-bar .top-bar-section ul.right > li {
+		height: 50px;
+	}
+
+	nav.top-bar .top-bar-section ul.right > li a {
+		height: 50px;
+		display: block;
+		padding-bottom: 20px;
+		font-size: 14px;
+		letter-spacing: 2px;
+		padding-left: 10px;
+		padding-right:10px;
+		color: #00CCCC;
+		font-family: "Lato", san-serif;
+		text-transform: uppercase;
+		background-color: transparent;
+	}
+
+	nav.top-bar .top-bar-section ul.right > li a:hover {
+		background-color: transparent;
+		color: white;
+		border-bottom: 4px solid #FFFFFF;
+	}
+
+	nav.top-bar .top-bar-section ul.right > li.active a:hover {
+		background-color: transparent;
+		color: white;
+		border-bottom: 4px solid #FFFFFF;
+	}
+
+	nav.top-bar .top-bar-section ul.right > li.active a {
+		height: 50px;
+		background-color: transparent;
+		display: block;
+		padding-bottom: 20px;
+		font-size: 14px;
+		letter-spacing: 2;
+		padding-left: 10px;
+		padding-right:10px;
+		color: #FFFFFF;
+	}
+
+	section {
+		background-color: white;
+	}
+
+	section div.row div.large-8.medium-12.small-12.columns div#scenery {
+		/*position: absolute; */
+	}
+
+	section div.row	div.large-4.medium-12.small-12.columns ul#features {
+		list-style-type: none;
+		margin-bottom: 20px;
+		line-height: 40px;
+		/*position: absolute;*/
+	}
+
+	section div.row	div.large-4.medium-12.small-12.columns ul#features li {
+		background-color: #00CCCC;
+		color: #000000;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 2px;
+		letter-spacing: 2px;
+		border: 1px solid gray;
+	}	
+
+	section div.row	div.large-4.medium-12.small-12.columns ul li#features_title {
+		background-color: #000000;
+		color: #00CCCC;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 2px;
+		letter-spacing: 2px;
+	}
+	
+	section div.row	div.large-4.medium-12.small-12.columns ul li span {
+		color: #FFFFFF;
+	}
+
+	section div.row div.large-12.columns {
+		font-size: 14pt;
+		line-height: 25px;
+		padding: 10px;
+	}
+
+	footer {
+		background-color: #333333;
+		color: #00CCCC;
+		background: black url('../images/border.png') repeat-x;
+	}
+
+	footer div.row div.large-4.medium-4.small-6.columns ul {
+		list-style: none;
+		text-transform: uppercase;
+		color: #00CCCC;
+		letter-spacing: 2px;
+		font-size: 12px;
+		margin: 40px 0px;
+		padding-left: 20px;
+		line-height: 30px;
+	}
+
+	footer div.row div.large-4.medium-4.hide-for-small.columns ul {
+		list-style: none;
+		text-transform: uppercase;
+		color: #00CCCC;
+		letter-spacing: 2px;
+		font-size: 12px;
+		margin: 40px 0px;
+		padding-left: 20px;
+		line-height: 30px;
+	}
+
+	footer div.row div.large-4.medium-4.small-6.columns ul {
+		list-style: none;
+		text-transform: uppercase;
+		color: #00CCCC;
+		letter-spacing: 2px;
+		font-size: 12px;
+		margin: 40px 0px;
+		padding-left: 20px;
+		line-height: 30px;
+	}
+
+	footer div.row ul a {
+		color: #00CCCC;
+	}
+
+	footer div.large-12.columns {
+		background-color: #00CCCC;
+		color: #333333;
+		text-align: center;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		height: 20px;
+	}
+
+	footer div.large-12.columns p {
+		font-size: 12px;
+	}
+
+}
+
+
+/* MEDIUM */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+
+	body {
+		background-color: orange;
+	}
+
+	header {
+		background-color: #333333;
+		background: black url('../images/border.png') repeat-x;
+	}
+
+	nav.top-bar {
+		height: 143px;
+		margin: auto;
+		background-color: transparent;
+	}
+
+	nav.top-bar ul.title-area li.name a {
+		display: block;
+		height: 143px;
+		width: 286px;
+	}
+
+	nav.top-bar ul.title-area li.name a h1 {
+		position: absolute;
+		margin-left: 120px;
+		margin-top: 30px;
+		line-height: 25px;
+	}
+
+	nav.top-bar ul.title-area li.name a h1 span#flappy {
+		background-color: transparent;
+		font-size: 24px;
+		color: #00CCCC;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		display: block;
+	}
+
+	nav.top-bar ul.title-area li.name a h1 span#app {
+		background-color: transparent;
+		font-size: 24px;
+		color: #FFFFFF;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		display: block;
+	}
+
+	nav.top-bar ul.title-area li.name a img {
+		position: absolute;
+		margin-left: 40px;
+		margin-top: 30px;
+		width: 77px;
+	}
+
+	nav.top-bar .top-bar-section ul.right {
+		height: 50px !important;
+		margin-top: 40px;
+		background-color: transparent;
+	}
+
+	nav.top-bar .top-bar-section ul.right > li {
+		height: 50px;
+	}
+
+	nav.top-bar .top-bar-section ul.right > li a {
+		height: 50px;
+		display: block;
+		padding-bottom: 20px;
+		font-size: 14px;
+		letter-spacing: 2px;
+		padding-left: 10px;
+		padding-right:10px;
+		color: #00CCCC;
+		font-family: "Lato", san-serif;
+		text-transform: uppercase;
+		background-color: transparent;
+	}
+
+	nav.top-bar .top-bar-section ul.right > li a:hover {
+		background-color: transparent;
+		color: white;
+		border-bottom: 4px solid #FFFFFF;
+	}
+
+	nav.top-bar .top-bar-section ul.right > li.active a:hover {
+		background-color: transparent;
+		color: white;
+		border-bottom: 4px solid #FFFFFF;
+	}
+
+	nav.top-bar .top-bar-section ul.right > li.active a {
+		height: 50px;
+		background-color: transparent;
+		display: block;
+		padding-bottom: 20px;
+		font-size: 14px;
+		letter-spacing: 2;
+		padding-left: 10px;
+		padding-right:10px;
+		color: #FFFFFF;
+	}
+
+	section {
+		background-color: white;
+	}
+
+	section div.row div.large-8.medium-12.small-12.columns div#scenery {
+		/*position: absolute; */
+	}
+
+	section div.row	div.large-4.medium-12.small-12.columns ul#features {
+		list-style-type: none;
+		margin-bottom: 20px;
+		line-height: 40px;
+		margin-left: 0px;
+	}
+
+	section div.row	div.large-4.medium-12.small-12.columns ul#features li {
+		background-color: #00CCCC;
+		color: #000000;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 2px;
+		letter-spacing: 2px;
+		border: 1px solid gray;
+		line-height: 50px;
+	}	
+
+	section div.row	div.large-4.medium-12.small-12.columns ul li#features_title {
+		background-color: #000000;
+		color: #00CCCC;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 2px;
+		letter-spacing: 2px;
+	}
+	
+	.column, .columns {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	section div.row	div.large-4.medium-12.small-12.columns ul li span {
+		color: #FFFFFF;
+	}
+
+	section div.row div.large-12.columns p {
+		font-size: 14pt;
+		line-height: 25px;
+		padding: 0px;
+	}
+
+	footer {
+		background-color: #333333;
+		color: #00CCCC;
+		background: black url('../images/border.png') repeat-x;
+	}
+
+	footer div.row div.large-4.medium-4.small-6.columns ul {
+		list-style: none;
+		text-transform: uppercase;
+		color: #00CCCC;
+		letter-spacing: 2px;
+		font-size: 12px;
+		margin: 40px 0px;
+		padding-left: 20px;
+		line-height: 30px;
+	}
+
+	footer div.row div.large-4.medium-4.hide-for-small.columns ul {
+		list-style: none;
+		text-transform: uppercase;
+		color: #00CCCC;
+		letter-spacing: 2px;
+		font-size: 12px;
+		margin: 40px 0px;
+		padding-left: 20px;
+		line-height: 30px;
+	}
+
+	footer div.row div.large-4.medium-4.small-6.columns ul {
+		list-style: none;
+		text-transform: uppercase;
+		color: #00CCCC;
+		letter-spacing: 2px;
+		font-size: 12px;
+		margin: 40px 0px;
+		padding-left: 20px;
+		line-height: 30px;
+	}
+
+	footer div.row ul a {
+		color: #00CCCC;
+	}
+
+	footer div.large-12.columns {
+		background-color: #00CCCC;
+		color: #333333;
+		text-align: center;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		height: 20px;
+	}
+
+	footer div.large-12.columns p {
+		font-size: 12px;
+	}
+
+
+
+} /* end MEDIUM */
+
+
+/* LARGE */
+@media only screen and (min-width: 64.063em) { 
+
+	body {
+		background-color: red;
+	}
+
+	header {
+		background-color: #333333;
+		background: black url('../images/border.png') repeat-x;
+	}
+
+	nav.top-bar {
+		height: 143px;
+		margin: auto;
+		background-color: transparent;
+	}
+
+	nav.top-bar .top-bar-section ul.right {
+		height: 50px !important;
+		margin-top: 40px;
+		background-color: transparent;
+	}
+
+	nav.top-bar .top-bar-section ul.right > li {
+		height: 50px;
+	}
+
+	nav.top-bar .top-bar-section ul.right > li a {
+		height: 50px;
+		display: block;
+		border-bottom: 4px solid #00CCCC;
+		padding-bottom: 20px;
+		font-size: 14px;
+		letter-spacing: 2px;
+		padding-left: 10px;
+		padding-right:10px;
+		color: #00CCCC;
+		font-family: "Lato", san-serif;
+		text-transform: uppercase;
+		background-color: transparent;
+	}
+
+	nav.top-bar .top-bar-section ul.right > li a:hover {
+		background-color: transparent;
+		color: white;
+		border-bottom: 4px solid #FFFFFF;
+	}
+
+	nav.top-bar .top-bar-section ul.right > li.active a:hover {
+		background-color: transparent;
+		color: white;
+		border-bottom: 4px solid #FFFFFF;
+	}
+
+	nav.top-bar .top-bar-section ul.right > li.active a {
+		height: 50px;
+		background-color: transparent;
+		display: block;
+		border-bottom: 4px solid #FFFFFF;
+		padding-bottom: 20px;
+		font-size: 14px;
+		letter-spacing: 2;
+		padding-left: 10px;
+		padding-right:10px;
+		color: #FFFFFF;
+	}
+
+	nav.top-bar ul.title-area li.name a h1 span#flappy {
+		font-size: 54px;
+		color: #00CCCC;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		position: absolute;
+		margin-top: 40px;
+	}
+
+	nav.top-bar ul.title-area li.name a h1 span#app {
+		font-size: 54px;
+		color: #00CCCC;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		position: absolute;
+		margin-top: 40px;
+		margin-left: 300px;
+	}
+
+	nav.top-bar ul.title-area li.name a img {
+		position: absolute;
+		margin-left: 200px;
+		margin-top: 30px;
+	}
+
+	section {
+		background-color: white;
+	}
+
+	section div.row div.large-8.medium-12.small-12.columns img {
+		border-color: black;
+		border: 3px solid;
+		float: left;
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+	section div.row	div.large-4.medium-12.small-12.columns ul#features {
+		list-style-type: none;
+		float: right;
+		width: 300px;
+		margin-top: 40px;
+		margin-bottom: 20px;
+		line-height: 40px;
+	}
+
+	section div.row	div.large-4.medium-12.small-12.columns ul#features li {
+		background-color: #00CCCC;
+		color: #000000;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 2px;
+		letter-spacing: 2px;
+		border: 1px solid gray;
+	}	
+
+	section div.row	div.large-4.medium-12.small-12.columns ul li#features_title {
+		background-color: #000000;
+		color: #00CCCC;
+		text-transform: uppercase;
+		text-align: center;
+		padding: 2px;
+		letter-spacing: 2px;
+	}
+	
+	section div.row	div.large-4.medium-12.small-12.columns ul li span {
+		color: #FFFFFF;
+	}
+
+	section div.row div.large-12.columns {
+		font-size: 14pt;
+		line-height: 25px;
+	}
+
+	footer {
+		background-color: #333333;
+		color: #00CCCC;
+		background: black url('../images/border.png') repeat-x;
+	}
+
+	footer div.row div.large-4.medium-4.small-6.columns ul {
+		list-style: none;
+		text-transform: uppercase;
+		color: #00CCCC;
+		letter-spacing: 2px;
+		font-size: 12px;
+		margin: 40px 0px;
+		border-left: 2px solid #00CCCC;
+		padding-left: 20px;
+		line-height: 30px;
+	}
+
+	footer div.row div.large-4.medium-4.hide-for-small.columns ul {
+		list-style: none;
+		text-transform: uppercase;
+		color: #00CCCC;
+		letter-spacing: 2px;
+		font-size: 12px;
+		margin: 40px 0px;
+		border-left: 2px solid #00CCCC;
+		padding-left: 20px;
+		line-height: 30px;
+	}
+
+	footer div.row div.large-4.medium-4.small-6.columns ul {
+		list-style: none;
+		text-transform: uppercase;
+		color: #00CCCC;
+		letter-spacing: 2px;
+		font-size: 12px;
+		margin: 40px 0px;
+		border-left: 2px solid #00CCCC;
+		padding-left: 20px;
+		line-height: 30px;
+	}
+
+
+	footer div.row ul a {
+		color: #00CCCC;
+	}
+
+	footer div.large-12.columns {
+		background-color: #00CCCC;
+		color: #333333;
+		text-align: center;
+		margin-bottom: 20px;
+		text-transform: uppercase;
+		height: 20px;
+	}
+
+	footer div.large-12.columns p {
+		font-size: 12px;
+	}
+
+
+
+
+} /* end LARGE */
